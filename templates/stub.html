@@ -8,8 +8,9 @@
 {% block body %}
     <!- Try building a new body here, bootstrap is a wise choice ->
     <div class="px-5 py-5 mx-auto">
-        <h1 class="text-primary"><strong>Background</strong></h1>
-        <p class="text-secondary">Scrum Team: Sanika (Backend), Jiya (Backend), Noor (Frontend), Shreya (Scrum Master).</p>
+        <h1 class="text-primary"><strong>About Me</strong></h1>
+        <p class="text-secondary">My name is Sanika Shahapurkar, and I am currently a senior in high school! I love playing my guitar, going to concerts, and taking pictures on my film camera. I am in several clubs including the DNHS Anti-racism and Equity Taskforce, Peer Counseling, and Theatre Society.</p>
+        <img class="card-img-top" src="{{ url_for('static', filename='assets/aboutmepic.png') }}" alt="Scrum Logo">
     </div>
 {% endblock %}
 
